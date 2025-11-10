@@ -1,0 +1,23 @@
+h2{
+    color: orange;
+    font-weight: 700;
+    text-align: end;
+    border: solid ;
+    background-color: black;
+
+}
+button{
+    background-color: blue;
+    color: white;
+}
+p{
+ background-color: black;
+ color : white;
+ text-decoration: underline;
+ /* underline , overline , linethrough */
+ line-height: 2.5;
+ 
+}
+a{
+    text-decoration: none;
+}

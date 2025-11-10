@@ -1,0 +1,18 @@
+#container{
+    height: 300px;
+    width: 80% ; /*takes 80percent of horizontal space */
+    margin:10px auto;/* set top and bottom to 10px and center horizontally wrt parent element */
+    background-color: aquamarine;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#container div{
+    height: 75px;
+    width: 100px;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: wheat;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: brown;
+    color : red;
+    line-height : 30px;
+}
+
+h3{
+    color: black;
+}
+a{
+    color : green;
+    text-decoration: none;
+}
+button{
+    background-color: white;
+}
+textarea{
+    color : #000000;
+    
+    
+}
+.underline {
+            text-decoration: underline;              /* Qs10 */
+        }
+.p2{
+    text-decoration: underline;
+
+}

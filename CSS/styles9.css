@@ -1,0 +1,25 @@
+#box{
+    height: 150px;
+    width: 300px;
+    box-flex-group: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em ;
+    padding : 1em;
+
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+
+
+}
+
+#technology{
+    display: inline;
+
+}

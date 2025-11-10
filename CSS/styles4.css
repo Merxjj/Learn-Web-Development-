@@ -1,0 +1,59 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h3{
+    color: rgb(175, 28, 28);
+}
+#signup{
+    background-color: white;
+}
+#signup{
+    background-color: rgb(175, 28, 28);
+    color: white;
+}
+.upvote{
+    background-color: green;
+}
+
+.post a{
+    color:" yellow";
+    background-color: pink;
+}
+nav ul li {
+    color : "pink";
+}
+p + h3 {
+    color : blue;
+}
+.upvote + button{
+    color: rgb(54, 54, 112);
+}
+input[type = "text"]{
+    color: red;
+}
+input[type = "password"]{
+    color: brown;
+}
+input[type]{
+    color: chartreuse;
+}
+div[id = "myId"] p {
+    color: green;
+}
+#myId p {
+    color: blanchedalmond;
+}
+button:hover{
+    background-color: brown;
+    color: rgb(38, 117, 185);
+}
+
+button:active{
+    color:yellow;
+}
+input[type = "radio"]:checked +label{
+    color: aquamarine;
+}
+.post :nth-of-type(2n){
+    background-color: rebeccapurple;
+}
