@@ -93,12 +93,13 @@
 /* Social icons */
 .social_media {
   position: absolute;
+  color: rgba(255,255,255,0.1);
   bottom: 30px;
   left: 20px;
 }
 
 .social_media a {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 22px;
   margin-right: 15px;
   text-decoration: none;
@@ -115,13 +116,17 @@
   color: #ffffff;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
   transition: 0.2s ease;
+  transform: scale(1.1);
 }
 .btn_one i:hover,
 .btn_two i:hover {
   color: #ffffff;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
   transition: 0.2s ease;
+  transform: scale(1.1)
 }
 
-
+.btn_two :hover{
+    font: size 40px;
+}
 
