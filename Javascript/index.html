@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Practice Playground</h1>
+
+    <!-- DIV for DOM Manipulation -->
+    <div class="box" id="colorBox">Box</div>
+
+    <!-- Buttons -->
+    <button onclick="changeColor()">Change Box Color</button>
+    <button onclick="changeText()">Change Box Text</button>
+
+    <!-- Image -->
+    <h2>Sample Image</h2>
+    <img id="sampleImg" src="https://via.placeholder.com/200" alt="Sample">
+
+    <button onclick="changeImage()">Change Image</button>
+
+    <!-- Form -->
+    <h2>Form Example</h2>
+    <form id="myForm" onsubmit="handleSubmit(event)">
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="formResult"></p>
+
+    <!-- List -->
+    <h2>List Example</h2>
+    <ul id="itemList">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+    <button onclick="addItem()">Add Item</button>
+
+    <!-- Table -->
+    <h2>Table Example</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Miraj</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste at velit hic ullam esse aut enim! Dolore aliquam molestiae sequi voluptas et voluptatum, atque, ratione libero porro dicta quidem iste.</p>
+    <script src="script.js"></script>
+</body>
+</html>
