@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Instagram page</h1>
+    <!-- <p>This page belongs to <%= username %></p> -->
+
+    <% if(username == "nitin"){%>
+        <p>This page belongs to <%= username %></p>
+    <%}%>
+    <button>Follow</button>
+    <button>Message</button>
+
+    <h2>Followers : Accounts that follows you : </h2>
+    <ul>
+        <% for(let name of followers){%>
+            <li> <%=name %></li>
+    
+        <%}%>
+
+    </ul>
+</body>
+</html>

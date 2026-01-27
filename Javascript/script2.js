@@ -38,17 +38,22 @@ function levelUp(){
 
 function checkAns(idx){
     
+    console.log(gameSeq);
     if(userSeq[idx] === gameSeq[idx]){
         if(userSeq.length == gameSeq.length){
             setTimeout(levelUp,1000);
 
             
-        }
-        
+        }   
     }else{
-        reset();
         console.log("wrong value , game over!");
-        h2.innerText = "game over , press any key to restart"
+        h2.innerHTML = `game over, <b> Your Score : </b>${level} , press any key to restart`;
+        document.querySelector("body").style.backgroundColor = "red";
+        setTimeout(function(){
+            document.querySelector("body").style.backgroundColor = "white";
+        },250);
+        reset();
+
     }
 }
 function btnPress(btn){
