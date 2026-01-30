@@ -1,5 +1,7 @@
 const figlet = require('figlet');
 
+//figlet is used to print in terminal 
+
 figlet("Meraj ", function (err, data) {
   if (err) {
     console.log("Something went wrong...");
