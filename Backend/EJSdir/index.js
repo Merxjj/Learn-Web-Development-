@@ -3,7 +3,13 @@ const app = express();
 const path = require("path");
 const port = 8080;
 
+//public folder to serve for static files such as html, css , js
 
+// app.use(express.static(path.join(__dirname,"public")));
+// we can use public/css to include file in the folder css 
+
+app.use(express.static(path.join(__dirname,"public/css")));
+app.use(express.static(path.join(__dirname,"public/js")));
 
 //app.listen() is same for every ejs file
 app.set("view engine","ejs"); 
